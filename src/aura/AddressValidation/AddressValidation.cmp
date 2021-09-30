@@ -41,8 +41,13 @@
     <aura:attribute name="locality" type="String" access="global" /> <!-- Stores 'City' -->
     <aura:attribute name="administrative_area_level_1" type="String" access="global" /> <!-- Stores the 'Province' or 'State' -->
     <aura:attribute name="administrative_area_level_2" type="String" access="global" /> <!-- Stores the 'County' -->
+
+    <aura:attribute name="state" type="String" access="Global" />
+    <aura:attribute name="stateCode" type="String" access="Global"/>
+
     <aura:attribute name="postal_code" type="String" access="global" />
-    <aura:attribute name="country" type="String" access="global" />
+    <aura:attribute name="country"  type="String" access="Global" />
+    <aura:attribute name="countryCode"  type="String" access="Global"/>
     <aura:attribute name="formattedAddress" type="String" access="global" />
 
     <!-- Configuration Attributes -->

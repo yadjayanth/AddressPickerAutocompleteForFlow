@@ -29,7 +29,11 @@
     <design:attribute name="administrative_area_level_1" label="Province/State" />
     <design:attribute name="administrative_area_level_2" label="County" />
     <design:attribute name="postal_code" label="Postal Code" />
+
+    <design:attribute name="state" label="State" />
+    <design:attribute name="stateCode" label="State Code"/>
     <design:attribute name="country" label="Country" />
+    <design:attribute name="countryCode" label="Country Code"/>
     <design:attribute name="formattedAddress" label="Full Formatted Address" 
                         description="Location text as seen in the search field after selecting a suggestion" />
 
